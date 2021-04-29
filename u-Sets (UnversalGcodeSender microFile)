@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Pen Up (?)",
+    "gcode": "M03 S80"
+  },
+  {
+    "name": "Pen Down (?)",
+    "gcode": "M05 S10"
+  },
+  {
+    "name": "Starting Posiition (?) ",
+    "gcode": "G21G90 G0Z5; G90 G0 X0 Y0; G90 G0 Z0;"
+  },
+  {
+    "name": "Initialize Machine",
+    "gcode": "G10 P0 L20 X0 Y0 Z0"
+  }
+]
